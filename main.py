@@ -55,8 +55,7 @@ def organizar_arquivos(pasta, arquivos, categorias):
         print(f"'{arquivo}' foi movido para '{categoria}'")
 
 
-# mudar nome de usuario quando for usar em outro computador
-pasta_alvo = "C:\\Users\\GodZinn Lindu\\Downloads"
+pasta_alvo = "C:\\Users\\Seu Usuario\\Downloads" # COLOQUE O CAMINHO PARA A PASTA DOWNLOAD AQUI
 
 categorias = carregar_categorias()
 print("Categorias carregadas com sucesso.")
@@ -75,4 +74,5 @@ for arquivo in arquivos:
 
 print("\nOrganizando arquivos...")
 organizar_arquivos(pasta_alvo, arquivos, categorias)
+
 print("\nTodos os arquivos foram organizados com sucesso!")
